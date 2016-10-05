@@ -1,22 +1,20 @@
-<header class="site-header container">
+<header class="site-header">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="row">
 
-  <div class="row">
+          <ul class="nav nav-pills pull-right">
+            {% for my_page in site.pages %}
+              {% if my_page.title %}
+              <li role="presentation"><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        
+        <a class="site-title col-xs-12" href="{{ site.baseurl }}/"><h1>{{ site.title }}</h1></a>
 
-    <nav class="site-nav col-xs-6 col-xs-offset-6">
-      <a href="#" class="menu-icon">
-      </a>
-
-      <ul class="nav nav-pills">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li role="presentation"><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
-
-    <a class="site-title col-xs-12" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-  </div>
+      </div>
+    </div>
+  </nav>
 
 </header>
