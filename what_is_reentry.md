@@ -1,7 +1,7 @@
 ---
 layout: page
-title: New
-permalink: /new/
+title: What Is Re-Entry
+permalink: /what-re-entry/
 
 ---
 

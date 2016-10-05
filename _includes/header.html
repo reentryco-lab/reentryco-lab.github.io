@@ -1,9 +1,11 @@
-<header class="site-header">
+<header class="site-header container">
 
-  <div class="wrapper">
+  <div class="row">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    
+    <nav class="site-nav col-xs-6 col-offset-xs-6">
+      <a href="#" class="menu-icon">
+      </a>
+
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
@@ -12,6 +14,8 @@
         {% endfor %}
       </div>
     </nav>
+
+    <a class="site-title col-xs-12" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
   </div>
 
