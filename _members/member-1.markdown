@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Upcoming Event 1
+title: Member 1
 ---
 
 

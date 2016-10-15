@@ -1,16 +1,11 @@
 ---
 layout: page
-title: What Is Re-Entry
+title: What Is Re-Entry?
 permalink: /what-re-entry/
 
 ---
+Example statistics
 
-This is the base Jekyll themse. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+* 1 in 3 working age Americans has a criminal record, [source: Wall Street Journal](http://www.wsj.com/articles/how-many-americans-have-a-police-record-probably-more-than-you-think-1438939802)
+* Majority of state and local governments spend 3-5 times more on incarceration than education
+[source: US Department of Education](https://www2.ed.gov/rschstat/eval/other/expenditures-corrections-education/brief.pdf)

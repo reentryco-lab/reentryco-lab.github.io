@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coalition 2
+title: Member 2
 ---
 
 

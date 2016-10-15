@@ -5,12 +5,10 @@ permalink: /about/
 
 ---
 
-This is the base Jekyll themse. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Goals:
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+* To elevate, promote, and support individuals, families, communities, and other stakeholders working on re-entry in Illinois
+* To leverage technology, research, and design tools for enhanced impact
+* To build bridges of understanding and compassion across silos and experiences
+* To use human creativity to share and tell stories
+* To move people to peaceful action on criminal justice issues
