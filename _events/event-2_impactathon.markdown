@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Impactathon
 image: impactathon.jpg
 ---
