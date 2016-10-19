@@ -2,41 +2,196 @@ a {
   color: orange;
 }
 
-.home {
-  background-color: #ffe0b3;
+
+h1.main {
+  margin-top: -55px;
 }
 
 .hero-text {
-  margin-top: 100px;
-  font-size: 24px;
+    a {
+    color: orange;
+  }
 }
 
-.events-row {
-  margin-top: 100px;
+.navbar {
+  z-index:0;
 }
 
-h4 {
-  font-size: 12px;
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  height: 100%;
+  background: #F8F8E1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#F8F8E1, #FF6266); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F8F8E1, #FF6266); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F8F8E1, #FF6266); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F8F8E1, #FF6266); /* Standard syntax */
+  background-attachment: fixed;
+}
+
+footer {
+  height: 35px;
+}
+
+h1 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 26px;
+  color: #FF5158;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 20px;
+  color: #334074;
+}
+
+
+nav.navbar.navbar-default {
+  border: 0 !important;
+}
+
+nav {
+  background: #FFF;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.navbar-header button {
+  border: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #334074;
+}
+
+ul.navbar-nav {
+  margin: 0;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: #334074;
+}
+
+a:hover, a:visited:hover, a:active {
+  color: #FF5158;
+  border-bottom: 3px solid #FF5158;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-size: 14px;
+  color: #334074;
+  padding-bottom: 13px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FF5158;
+  border-bottom: 2px solid #FF5158;
+}
+
+h1.main {
+  font-size: 50px;
+}
+
+h2.main {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 32px;
+}
+
+.event-block {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.event-div, .event {
+  position: relative;
+}
+
+.event-div {
+  border: 7.5px solid #fff;
   margin-bottom: 20px;
 }
 
-.event-box {
-  border: 3px solid #fff;
-  height: 250px;
+
+.event .img-container {
+  height: 275px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 75px;
+  
+  img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+  }
+
 }
 
+.event h3 {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  top: 50px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 28px;
+  color: #fff;
+}
 
-.why-box {
-  margin-top: 50px;
-  padding: 50px;
+.why-reentry {
   background-color: #fff;
+  margin-top: 75px;
 }
 
-.coalition {
-  margin-top: 50px;
+.why-reentry h2 {
+  margin-top: 5px;
+}
 
-  .coalition-box {
-    border: 3px solid #fff;
-    height: 50px;
-  } 
+.why-reentry p {
+  font-family: "Merriweather", Georgia, sans-serif;
+  font-size: 16px;
+}
+
+.why-reentry a {
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.event p {
+  color: white;
+  text-align: center;
+}
+
+p.date {
+  margin-top: -70px;
+  margin-bottom: 0px;
+}
+
+.event-collab {
+  border: 7.5px solid rgba(255, 255, 255, .4);
+  height: 355px;
+}
+
+p.collaborate {
+  bottom: 48px;
+  position: absolute;
+  width: 100%;
+  color: #FF5454;
+}
+
+.rsvp {
+  background-color: white;
+  width: 70px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  color: #FF5158;
+  margin-bottom: -15px;
 }

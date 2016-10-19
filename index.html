@@ -3,38 +3,55 @@ layout: default
 ---
 <div class="home container-fluid">
   <div class="container">
-    <div class="row hero-text col-xs-12">
-      <h1 class="main">
-        ReEntry<br>
-        CoLab
-      </h1>
-      <h2 class="main">
-        We're a coalition of Chicago community organizations working to create
-        better and more accessible <a href="/what-re-entry">re-entry services</a>.
-      </h2>
+    <div class="row hero-text">
+      <div class="col-xs-12">
+        <h1 class="main">
+          ReEntry<br>
+          CoLab
+        </h1>
+        <h2 class="main">
+          We're a coalition of Chicago community organizations working to create
+          better and more accessible <a href="/what-re-entry">re-entry services</a>.
+        </h2>
+      </div>
     </div>
     <br>
-    <div class="col-xs-12 event-block">
-			<h2>Events</h2>
-			<div class="row">
-        {% for event in site.events limit:2  %}
-          <div class="col-xs-2 event">
+    <div class="row">
+      <div class="col-xs-12">
+  			<h2>Upcoming Events</h2>
+      </div>
+      {% for event in site.events limit:2  %}
+        <div class="col-sm-6 col-md-4 col-xs-12 event">
+          <div class="event-div">
             <h3>{{ event.title }}</h3>
-  					<img src="{{ site.baseurl }}/img/{{ event.image }}">
+            <div class="img-container">
+  					   <img src="{{ site.baseurl }}/img/{{ event.image }}">
+            </div>
+            <p class="date"> {{ event.event_date }} </p>
+            <p class="location"> {{ event.location }} </p>
+            <div class="rsvp"> RSVP </div>
           </div>
-        {% endfor %}
-			</div>
+        </div>
+      {% endfor %}
+      <div class="col-sm-6 col-md-4 col-xs-12 event ">
+        <div class="event-div event-collab">
+          <h3>Help us plan our next event</h3>
+          <p class="collaborate"> Collaborate with us </p>
+        </div>
+      </div>
 		</div>
     <div class="row">
-      <div class="col-xs-12 why-reentry">
-        <h2>Why re-entry?</h2>
-        <p>
-          Re-entry is inextricably linked to poverty, housing, education, and other
-          pressing issues. By interrupting these cycles, we have the potential to
-          prevent layers of harm. Reducing mass incarceration and recidivism are issues
-          with extensive bipartisan support.
-        </p>
-        <a href="/what-re-entry">Learn more about re-entry</a>
+      <div class="col-xs-12">
+        <div class="why-reentry">
+          <h2>Why re-entry?</h2>
+          <p>
+            Re-entry is inextricably linked to poverty, housing, education, and other
+            pressing issues. By interrupting these cycles, we have the potential to
+            prevent layers of harm. Reducing mass incarceration and recidivism are issues
+            with extensive bipartisan support.
+          </p>
+          <a href="/what-re-entry">Learn more about re-entry</a>
+        </div>
       </div>
     </div>
     <div class="row">
