@@ -1,7 +1,5 @@
 ---
 layout: page
-title: Member 2
+title: Microsoft
+logo: microsoft.jpg
 ---
-
-
-# This is the first post on the sitefkmmfk

@@ -10,7 +10,7 @@ layout: default
           CoLab
         </h1>
         <h2 class="main">
-          We're a coalition of Chicago community organizations working to create
+          We're a collaborative of Chicago community organizations working to create
           better and more accessible <a href="/what-re-entry">re-entry services</a>.
         </h2>
       </div>
@@ -29,7 +29,7 @@ layout: default
             </div>
             <p class="date"> {{ event.event_date }} </p>
             <p class="location"> {{ event.location }} </p>
-            <div class="rsvp"> RSVP </div>
+            <div class="rsvp"><a href="{{ event.rsvp_link}}">RSVP</a></div>
           </div>
         </div>
       {% endfor %}
@@ -54,15 +54,16 @@ layout: default
         </div>
       </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-xs-12 coalition">
-        <h2> The coalition </h2>
+        <h2>Partners</h2>
       </div>
       {% for member in site.members  %}
         <div class="col-xs-2 coalition-box">
+          <img src="img/{{member.logo}}">
           {{ member.title }}
         </div>
       {% endfor %}
-    </div>
+    </div> -->
   </div>
 </div>

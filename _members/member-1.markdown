@@ -1,7 +1,5 @@
 ---
 layout: page
-title: Member 1
+title: Englewood Accelerator
+logo: englewood_accelerator.jpg
 ---
-
-
-# This is the first post on the sitefkmmfk
